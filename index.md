@@ -57,7 +57,7 @@ ESP32 (DS18B20) → HTTP/JSON → Python-мост → InfluxDB ← Grafana
 - Доступен по имени `esp32-temp.local` (mDNS)
 
 **Пример ответа ESP32:**
-```json
+json
 {"sensor1":23.5,"sensor2":24.1}
 
 🔥 ALERT: High Temperature Alert - Fridge
